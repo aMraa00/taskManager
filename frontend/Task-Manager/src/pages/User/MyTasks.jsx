@@ -47,7 +47,7 @@ const MyTasks = () => {
     navigate(`/user/task-details/${taskId}`);
   };
 
-  // `filterStatus` өөрчлөгдөх бүрд `getAllTasks` функцийг дуудна
+  // `filterStatus` өөрчлөгд  өх бүрд `getAllTasks` функцийг дуудна
   useEffect(() => {
     getAllTasks(filterStatus);
     return () => {}; // Цэвэрлэх функц (component unmount хийгдэхэд ашиглагдана)

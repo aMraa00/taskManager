@@ -77,7 +77,7 @@ const Login = () => {
             value={email}
             onChange={({ target }) => setEmail(target.value)}
             label="И-мэйл хаяг"
-            placeholder="john@example.com"
+            placeholder="Та мэйл хаягаа оруулна уу"
             type="text"
           />
 

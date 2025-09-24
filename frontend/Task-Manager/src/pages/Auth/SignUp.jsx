@@ -107,7 +107,7 @@ const SignUp = () => {
               value={email}
               onChange={({ target }) => setEmail(target.value)}
               label="И-мэйл хаяг"
-              placeholder="john@example.com"
+              placeholder="Та И-мэйл хаягаа оруулна уу."
               type="text"
             />
             <Input
